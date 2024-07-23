@@ -16,17 +16,15 @@ export const Content = styled.div`
   align-items: center;
 `;
 
-export const LoginBox = styled.div`
+export const TicketingBox = styled.div`
   width: 400px;
-  height: 320px;
   padding: 30px;
   background-color: #d9d9d9;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 `;
 
 export const Title = styled.h1`
@@ -38,7 +36,6 @@ export const Title = styled.h1`
 export const Input = styled.input`
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   outline: none;

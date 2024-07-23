@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import * as S from "./style";
 import Header from "../../components/Header/Header";
 
-const Login = () => {
-  const [inputs, setInputs] = useState({ id: "", password: "" });
+const Register = () => {
+  const [inputs, setInputs] = useState({ username: "", id: "", password: "" });
 
   const handleInputs = (e) => {
     setInputs({
@@ -11,12 +11,19 @@ const Login = () => {
       [e.target.name]: e.target.value,
     });
   };
+
   return (
     <S.Layout>
       <Header />
       <S.Content>
         <S.LoginBox>
-          <S.Title>로그인</S.Title>
+          <S.Title>회원가입</S.Title>
+          <S.Input
+            name="username"
+            value={inputs.username}
+            placeholder="이름을 입력하세요."
+            onChange={handleInputs}
+          />
           <S.Input
             name="id"
             value={inputs.id}
@@ -30,11 +37,11 @@ const Login = () => {
             placeholder="비밀번호를 입력하세요."
             onChange={handleInputs}
           />
-          <S.Button>로그인</S.Button>
+          <S.Button>회원가입</S.Button>
         </S.LoginBox>
       </S.Content>
     </S.Layout>
   );
 };
 
-export default Login;
+export default Register;
