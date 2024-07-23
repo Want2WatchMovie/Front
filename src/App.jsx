@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <Header/>
+    <Header/> // 이거 사용하셈
   )
 }
 
