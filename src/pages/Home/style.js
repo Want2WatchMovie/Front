@@ -20,13 +20,14 @@ export const Day = styled.div`
   padding: 10px 55px;
   cursor: pointer;
   background-color: ${(props) => (props.isSelect ? "#4f9cd4" : "#d9d9d9")};
+  color: ${(props) => (props.isSelect ? "white" : "black")};
   font-size: 28px;
 `;
 
 export const Movies = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 34px;
 `;
 
 export const Movie = styled.div`

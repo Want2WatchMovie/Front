@@ -12,6 +12,7 @@ export const HeaderBar = styled.div`
 export const Title = styled.p`
   font-size: 52px;
   color: white;
+  cursor: pointer;
 `;
 
 export const Buttons = styled.div`
@@ -23,4 +24,5 @@ export const Buttons = styled.div`
 export const Button = styled.p`
   font-size: 24px;
   color: white;
+  cursor: pointer;
 `;
