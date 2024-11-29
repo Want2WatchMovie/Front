@@ -4,13 +4,14 @@ export const HeaderBar = styled.div`
   display: flex;
   width: 100vw;
   height: 100px;
-  background-color: #adadad;
+  background-color: #4f9cd4;
   justify-content: space-around;
   align-items: center;
 `;
 
 export const Title = styled.p`
   font-size: 52px;
+  color: white;
 `;
 
 export const Buttons = styled.div`
@@ -21,4 +22,5 @@ export const Buttons = styled.div`
 
 export const Button = styled.p`
   font-size: 24px;
+  color: white;
 `;
