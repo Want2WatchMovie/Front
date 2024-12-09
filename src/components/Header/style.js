@@ -10,7 +10,7 @@ export const HeaderBar = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 52px;
+  font-size: 36px;
   color: white;
   cursor: pointer;
 `;

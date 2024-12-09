@@ -17,7 +17,7 @@ export const DayOfWeek = styled.div`
 `;
 
 export const Day = styled.div`
-  padding: 10px 55px;
+  padding: 1% 5%;
   cursor: pointer;
   background-color: ${(props) => (props.isSelect ? "#4f9cd4" : "#d9d9d9")};
   color: ${(props) => (props.isSelect ? "white" : "black")};
@@ -40,8 +40,8 @@ export const Movie = styled.div`
 `;
 
 export const MovieImg = styled.img`
-  width: 180px;
-  height: 260px;
+  width: 165px;
+  height: 280px;
 `;
 
 export const MovieTitle = styled.div`
